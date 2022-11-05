@@ -1,4 +1,4 @@
-import Guide from '@/components/Guide';
+import Home from '@/components/Home';
 import { trim } from '@/utils/format';
 import { PageContainer } from '@ant-design/pro-components';
 import { useModel } from '@umijs/max';
@@ -9,7 +9,7 @@ const HomePage: React.FC = () => {
   return (
     <PageContainer ghost>
       <div className={styles.container}>
-        <Guide name={trim(name)} />
+        <Home name={trim(name)} />
       </div>
     </PageContainer>
   );
